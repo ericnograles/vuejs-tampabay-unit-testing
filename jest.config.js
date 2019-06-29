@@ -1,3 +1,4 @@
+/* eslint-disable */
 module.exports = {
   moduleFileExtensions: ["js", "jsx", "json", "vue"],
   transform: {
@@ -18,5 +19,6 @@ module.exports = {
   watchPlugins: [
     "jest-watch-typeahead/filename",
     "jest-watch-typeahead/testname"
-  ]
+  ],
+  setupTestFrameworkScriptFile: "<rootDir>/tests/image-snapshot-setup.js"
 };
